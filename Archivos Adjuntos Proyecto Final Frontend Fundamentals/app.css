@@ -1,4 +1,63 @@
 /*reglas generales*/
+body {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.barraNav {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.listaNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listaNav li {
+    float: left;
+    margin-right: 20px;
+}
+
+.divHero {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.divHero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.divProductos {
+    width: 80%;
+}
+
+.sectProductos {
+    width: 100%;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+td {
+    border: 2px solid #000;
+    width: 300;
+}
+
+
+/*  font-family: 'Playfair', serif;
+    font-family: 'Raleway', sans-serif; */
 
 /*Media Query*/
 
